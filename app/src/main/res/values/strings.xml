@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Verify</string>
+    <string-array name="resultsSpinner">
+        <item>F</item>
+        <item>C</item>
+    </string-array>
+
+    <string-array name="fontSpinner">
+        <item>12</item>
+        <item>16</item>
+        <item>20</item>
+    </string-array>
+
+    <string name="menuSetting">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_readings">Readings</string>
+    <string name="title_activity_userDetails">User Details</string>
+    <string name="title_activity_contacts">Contacts</string>
+
+
+
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moy_luke.mymedicare">
+
+    <user-feature android:name="android.hardware.camera2" android:required="true"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme"
+            />
+        <activity android:name=".create_account" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_readings"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".user_details"
+            android:label="@string/title_activity_userDetails"
+            android:theme="@style/AppTheme"
+        />
+
+        <activity android:name=".contact_list"
+            android:label="@string/title_activity_contacts"
+            android:theme="@style/AppTheme"
+        />
+        <activity android:name=".profile_image"
+            android:label="Profile Image"
+            android:theme="@style/AppTheme"
+            />
+
+        <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyCoD6hVUZwFMHgqM2Zo1oukWEt19VDfzDU" />
+</application>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+</manifest>
